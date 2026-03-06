@@ -1,10 +1,11 @@
-import { TodoList, FetchDataSearch } from "./components/index";
+import { TodoList, FetchDataSearch, ChildToParent } from "./components/index";
 
 const App = () => {
   return (
     <div>
       {/* <TodoList /> */}
-      <FetchDataSearch />
+      {/* <FetchDataSearch /> */}
+      <ChildToParent />
     </div>
   );
 };
